@@ -1,10 +1,6 @@
 # ImguiDumper
-Il2CppDumper without Magisk/Zygisk, dump il2cpp data at runtime, can bypass protection, encryption and obfuscation.
 
-This project is based on BrianGIG [Auto-Il2cppDumper](https://github.com/BryanGIG/Auto-Il2cppDumper) which I continue to maintain it
-
-# How to use
-Download pre-compiled libs [HERE](https://github.com/AndnixSH/Auto-Il2cppDumper/releases) and follow steps below
+ImguiDumper + Esp
 
 Note: Non-root methods involves modifying APK file, you may need to bypass APK integrity or signature check if it's present. I won't get into the details of bypassing anything because it is simply out of the scope
 
@@ -76,20 +72,6 @@ Like
 - Once the dump is complete, it will save the dump.cs in /storage/emulated/0/Android/data/(Package name)/
   ![](Images/2.png)
 - If there is no dump.cs, check logcat using Matlog or Android Studio. Game usually crash or freeze if dump fails
-
-### Obfuscated names
-Names can't be deobfuscated. Once they are obfuscated/renamed, it can't be reverted back to original, the APK doesn't even have a brain to memorize all original names. Instead, try find older version without obfuscation, or debug the game using GG, frida, gdb, lldb or others. If you can't do any of these, maybe guess the functions and try one by one :P
-
-### Bypass more games?
-No idea since bypassing is not my thing, but if you know, feel free to make a pull request. For now, Issues is closed
-
-# Usage (If you want to complie by yourself)
-
-In config header `jni/Includes/config.h`:
-
-`UseFakeLib` is to use it as root mode
-
-`Sleep` is to delay dumping. Increase if getting issue with dumper, like if not fully dumped
 
 # Credits
 - Perfare [Zygisk-Il2CppDumper](https://github.com/Perfare/Zygisk-Il2CppDumper)
