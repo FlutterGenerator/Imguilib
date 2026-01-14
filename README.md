@@ -1,4 +1,4 @@
-# Auto-Il2cppDumper
+# ImguiDumper
 Il2CppDumper without Magisk/Zygisk, dump il2cpp data at runtime, can bypass protection, encryption and obfuscation.
 
 This project is based on BrianGIG [Auto-Il2cppDumper](https://github.com/BryanGIG/Auto-Il2cppDumper) which I continue to maintain it
