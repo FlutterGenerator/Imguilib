@@ -1,6 +1,6 @@
 # ImguiDumper
 
-ImguiDumper + Esp
+## ImguiDumper + Esp
 
 Note: Non-root methods involves modifying APK file, you may need to bypass APK integrity or signature check if it's present. I won't get into the details of bypassing anything because it is simply out of the scope
 
