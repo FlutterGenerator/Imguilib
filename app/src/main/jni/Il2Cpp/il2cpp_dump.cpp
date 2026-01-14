@@ -514,7 +514,7 @@ void il2cpp_dump(void *handle) {
         }
     }
 
-    auto androidDataPath = std::string("/storage/emulated/0/").append(GetPackageName()).append("/").append("dump.cs");
+    auto androidDataPath = std::string("/storage/emulated/0/Android/data/").append(GetPackageName()).append("/").append("dump.cs");
 
     LOGI("Save dump file to %s", androidDataPath.c_str());
 
